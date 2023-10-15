@@ -4,6 +4,7 @@ package com.example.simpleboard.reply.db;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDateTime;
 
 @Getter

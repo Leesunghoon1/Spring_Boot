@@ -18,6 +18,7 @@ import javax.persistence.Id;
 public class BoardEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
 
     private String boardName;
